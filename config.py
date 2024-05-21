@@ -3,7 +3,7 @@ from pydantic import BaseSettings
 
 class Settings(BaseSettings):
     DATABASE_PORT: int = 5432
-    DATABASE_URL = "postgresql://postgres:12345@localhost:5432/dbtest04"
+    DATABASE_URL = "postgresql://postgresuser:U4bbcW0F2xCTKhDiiLgC9J4kTwv2owIy@dpg-cp6b5sol6cac738hr7jg-a:5432/dbtest04_82k1"
     POSTGRES_PASSWORD: str = "12345"
     POSTGRES_USER: str = "postgres"
     POSTGRES_DB: str = "dbtest04"
